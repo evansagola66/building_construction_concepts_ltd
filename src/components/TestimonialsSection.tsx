@@ -24,7 +24,7 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
       id: 1,
       name: "Sarah Johnson",
       role: "Project Manager",
-      company: "Skyline Developments",
+      company: "NYC Skyline Developments",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah",
       content:
         "Building and Constitution Concepts delivered our office complex on time and under budget. Their attention to detail and quality craftsmanship exceeded our expectations.",
@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
       id: 2,
       name: "Michael Chen",
       role: "Property Developer",
-      company: "Urban Living Spaces",
+      company: "Manhattan Urban Living",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael",
       content:
         "We've worked with many construction firms over the years, but none have matched the professionalism and expertise of this team. They transformed our vision into reality.",
@@ -44,7 +44,7 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({
       id: 3,
       name: "Emily Rodriguez",
       role: "Homeowner",
-      company: "",
+      company: "Queens Residential Client",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=emily",
       content:
         "From the initial consultation to the final walkthrough, the entire process was smooth and transparent. Our dream home is everything we hoped for and more.",

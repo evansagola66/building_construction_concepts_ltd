@@ -34,7 +34,7 @@ const PortfolioSection = ({
       imageUrl:
         "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
       completionDate: "June 2023",
-      client: "TechCorp Inc.",
+      client: "Hudson Yards Development Corp",
       details:
         "This 12-story commercial building features floor-to-ceiling windows, a green roof, solar panels, and a modern open floor plan. The project was completed on schedule and within budget, earning LEED Platinum certification for its sustainable design and energy efficiency.",
     },
@@ -47,7 +47,7 @@ const PortfolioSection = ({
       imageUrl:
         "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&q=80",
       completionDate: "March 2023",
-      client: "Elite Homes LLC",
+      client: "Manhattan Luxury Properties",
       details:
         "This luxury residential complex includes 45 premium units with high-end finishes, a rooftop pool, fitness center, and landscaped gardens. The project incorporates smart home technology throughout and was designed with a focus on creating a sense of community among residents.",
     },
@@ -58,9 +58,9 @@ const PortfolioSection = ({
         "A major infrastructure project expanding a critical highway bridge to improve traffic flow.",
       category: "Infrastructure",
       imageUrl:
-        "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
+        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
       completionDate: "November 2022",
-      client: "State Transportation Department",
+      client: "New York State DOT",
       details:
         "This infrastructure project involved expanding a four-lane bridge to six lanes, including pedestrian walkways and bike lanes. The project required careful planning to minimize traffic disruption and was completed two months ahead of schedule.",
     },
@@ -73,7 +73,7 @@ const PortfolioSection = ({
       imageUrl:
         "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=800&q=80",
       completionDate: "January 2023",
-      client: "Metro Retail Group",
+      client: "Manhattan Mall Ventures",
       details:
         "This renovation project transformed an outdated shopping center into a modern retail destination. The scope included structural reinforcements, a new façade, expanded food court, and improved accessibility features throughout the 120,000 square foot facility.",
     },
@@ -86,7 +86,7 @@ const PortfolioSection = ({
       imageUrl:
         "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
       completionDate: "August 2022",
-      client: "Westside School District",
+      client: "NYC Department of Education",
       details:
         "This 85,000 square foot elementary school features 32 classrooms, a library media center, gymnasium, cafeteria, and specialized learning spaces. The building incorporates natural lighting, energy-efficient systems, and was designed with security as a priority.",
     },
@@ -97,9 +97,9 @@ const PortfolioSection = ({
         "A large-scale manufacturing facility built to precise specifications for a leading industrial company.",
       category: "Industrial",
       imageUrl:
-        "https://images.unsplash.com/photo-1565636252854-41b5c59c3bb4?w=800&q=80",
+        "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=800&q=80",
       completionDate: "May 2023",
-      client: "Advanced Manufacturing Inc.",
+      client: "Brooklyn Industrial Partners",
       details:
         "This 200,000 square foot manufacturing facility includes production areas, warehousing, office space, and specialized equipment foundations. The project required precise coordination with equipment vendors and was delivered with zero safety incidents.",
     },

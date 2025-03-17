@@ -17,11 +17,11 @@ interface ContactSectionProps {
 }
 
 const ContactSection = ({
-  companyName = "Building and Constitution Concepts Ltd",
-  address = "123 Construction Way, Building City, BC 12345",
-  phone = "(555) 123-4567",
-  email = "info@buildingconcepts.com",
-  mapLocation = { lat: 40.712776, lng: -74.005974 },
+  companyName = "Building & Constitution Concepts Ltd",
+  address = "WQQG+HJC, Opposite Farm Engineering Ltd, Kanyakwar, Mamboleo, Kisumu, Kenya",
+  phone = "(212) 643-1010",
+  email = "info@buildingconceptsltd.com",
+  mapLocation = { lat: -0.06108442320178933, lng: 34.77642274001636 },
 }: ContactSectionProps) => {
   const [formState, setFormState] = useState({
     name: "",
@@ -226,6 +226,10 @@ const ContactSection = ({
                   <div>
                     <h4 className="font-medium text-slate-900">Our Location</h4>
                     <p className="text-slate-600 mt-1">{address}</p>
+                    <p className="text-slate-600 mt-1 text-sm">
+                      Directions: Located in Mamboleo, Kisumu, Kenya. Opposite
+                      Farm Engineering Ltd in the Kanyakwar area.
+                    </p>
                   </div>
                 </div>
 
@@ -275,7 +279,7 @@ const ContactSection = ({
               {/* Google Maps iframe */}
               <div className="h-full w-full">
                 <iframe
-                  src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${mapLocation.lat},${mapLocation.lng}&zoom=14`}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.36350330547785!2d34.77642274001636!3d-0.06108442320178933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa1557bc25c65%3A0x9460367802a59a1f!2sBuilding%20Construction%20Concepts%20Limited!5e0!3m2!1sen!2ske!4v1742232801705!5m2!1sen!2ske"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: "300px" }}

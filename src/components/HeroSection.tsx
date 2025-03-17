@@ -12,8 +12,8 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({
-  title = "Building & Constitution Concepts Ltd",
-  subtitle = "Constructing excellence with precision and reliability. Your vision, our expertise.",
+  title = "Building Construction Concepts Ltd",
+  subtitle = "Constructing excellence with precision and reliability since 1986. Your vision, our expertise.",
   ctaText = "Explore Our Services",
   onCtaClick = () => {
     const servicesSection = document.getElementById("services");
@@ -21,7 +21,7 @@ const HeroSection = ({
       servicesSection.scrollIntoView({ behavior: "smooth" });
     }
   },
-  backgroundImage = "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80",
+  backgroundImage = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80",
 }: HeroSectionProps) => {
   const logoRef = useRef<HTMLDivElement>(null);
 

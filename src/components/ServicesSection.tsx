@@ -28,7 +28,7 @@ const ServicesSection = ({
       fullDescription:
         "Our residential construction services include custom home building, renovations, additions, and remodeling. We work closely with homeowners to bring their vision to life with quality craftsmanship and attention to detail.",
       image:
-        "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=600&q=80",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&q=80",
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const ServicesSection = ({
       fullDescription:
         "From office buildings to retail spaces, our commercial construction team handles projects of all sizes. We focus on efficiency, durability, and creating functional spaces that meet your business needs while adhering to all building codes and regulations.",
       image:
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const ServicesSection = ({
       fullDescription:
         "Our infrastructure development services include the construction of roads, bridges, water systems, and public facilities. We have the expertise and equipment to handle large-scale projects that serve communities and improve public infrastructure.",
       image:
-        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80",
+        "https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=600&q=80",
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const ServicesSection = ({
       fullDescription:
         "Our renovation and remodeling services breathe new life into existing structures. Whether you're looking to update a kitchen, add a bathroom, or completely transform your space, our team delivers quality results that exceed expectations.",
       image:
-        "https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=600&q=80",
+        "https://lh3.googleusercontent.com/p/AF1QipPKSozDlf3yt-Pm0T1oLY9IMLIYFsDFwomTjXG0=s680-w680-h510",
     },
     {
       id: 5,
@@ -64,7 +64,7 @@ const ServicesSection = ({
       fullDescription:
         "Our project management services provide comprehensive oversight from planning to completion. We coordinate all aspects of your construction project, ensuring it stays on schedule, within budget, and meets all quality standards.",
       image:
-        "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
     },
     {
       id: 6,
@@ -73,7 +73,7 @@ const ServicesSection = ({
       fullDescription:
         "Our industrial manufacturing facility construction services deliver large-scale, precision-engineered buildings designed for optimal workflow and productivity. We specialize in creating facilities that meet specific industrial requirements while ensuring safety, efficiency, and durability.",
       image:
-        "https://images.unsplash.com/photo-1565636252854-41b5c59c3bb4?w=600&q=80",
+        "https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=600&q=80",
     },
   ],
 }: ServicesSectionProps) => {

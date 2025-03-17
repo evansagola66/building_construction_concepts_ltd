@@ -28,10 +28,10 @@ interface FooterProps {
 }
 
 const Footer = ({
-  companyName = "Building and Constitution Concepts Ltd",
-  address = "123 Construction Way, Building City, BC 12345",
-  phone = "+1 (555) 123-4567",
-  email = "info@buildingconcepts.com",
+  companyName = "Building & Constitution Concepts Ltd",
+  address = "WQQG+HJC, Opposite Farm Engineering Ltd, Kanyakwar, Mamboleo, Kisumu",
+  phone = "0729 228975",
+  email = "info@buildingconceptsltd.com",
   socialLinks = {
     facebook: "https://facebook.com",
     twitter: "https://twitter.com",
@@ -42,6 +42,8 @@ const Footer = ({
     { name: "Privacy Policy", href: "/privacy" },
     { name: "Terms of Service", href: "/terms" },
     { name: "Sitemap", href: "/sitemap" },
+    { name: "Careers", href: "/careers" },
+    { name: "Projects", href: "/projects" },
   ],
 }: FooterProps) => {
   const currentYear = new Date().getFullYear();
@@ -116,20 +118,31 @@ const Footer = ({
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Stay Updated</h3>
-            <p className="mb-4">
-              Subscribe to our newsletter for the latest updates and offers.
-            </p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="px-4 py-2 w-full text-gray-900 rounded-l focus:outline-none"
-              />
-              <button className="bg-amber-500 hover:bg-amber-600 px-4 py-2 rounded-r transition-colors">
-                Subscribe
-              </button>
-            </div>
+            <h3 className="text-xl font-bold mb-4">Business Hours</h3>
+            <ul className="space-y-1">
+              <li className="flex justify-between">
+                <span>Monday:</span> <span>7 am–6 pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Tuesday:</span> <span>7 am–6 pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Wednesday:</span> <span>7 am–6 pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Thursday:</span> <span>7 am–6 pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Friday:</span> <span>7 am–6 pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Saturday:</span> <span>7 am–6 pm</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Sunday:</span> <span>Closed</span>
+              </li>
+            </ul>
+            <p className="mt-4 text-sm">Areas served: Kenya and nearby areas</p>
           </div>
         </div>
 

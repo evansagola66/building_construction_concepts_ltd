@@ -9,7 +9,7 @@ interface NavbarProps {
 }
 
 const Navbar = ({
-  logo = "Building & Constitution Concepts",
+  logo = "Building Construction Concepts Ltd",
   navItems = [
     { label: "Home", href: "#hero" },
     { label: "Services", href: "#services" },
