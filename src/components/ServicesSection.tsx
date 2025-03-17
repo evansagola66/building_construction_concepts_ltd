@@ -68,12 +68,12 @@ const ServicesSection = ({
     },
     {
       id: 6,
-      title: "Sustainable Building",
-      description: "Eco-friendly construction solutions",
+      title: "Industrial Manufacturing Facility",
+      description: "Large-scale industrial construction",
       fullDescription:
-        "We specialize in sustainable building practices that minimize environmental impact while maximizing energy efficiency. Our green construction solutions incorporate renewable materials, energy-efficient systems, and environmentally responsible waste management.",
+        "Our industrial manufacturing facility construction services deliver large-scale, precision-engineered buildings designed for optimal workflow and productivity. We specialize in creating facilities that meet specific industrial requirements while ensuring safety, efficiency, and durability.",
       image:
-        "https://images.unsplash.com/photo-1518005068251-37900150dfca?w=600&q=80",
+        "https://images.unsplash.com/photo-1565636252854-41b5c59c3bb4?w=600&q=80",
     },
   ],
 }: ServicesSectionProps) => {
@@ -112,7 +112,7 @@ const ServicesSection = ({
     <section
       id="services"
       ref={sectionRef}
-      className="py-20 px-4 md:px-8 lg:px-16 bg-gray-50"
+      className="py-12 md:py-20 px-4 md:px-8 lg:px-16 bg-gray-50"
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
@@ -135,7 +135,7 @@ const ServicesSection = ({
         </div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
